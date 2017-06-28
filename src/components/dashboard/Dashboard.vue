@@ -2,7 +2,7 @@
   <div id="wrapper">
   <app-nav></app-nav>
     <app-left-nav></app-left-nav>
-    <app-page-wrapper :name="page"></app-page-wrapper>
+    <app-page-wrapper :pageName="page"></app-page-wrapper>
 </div>
 </template>
 

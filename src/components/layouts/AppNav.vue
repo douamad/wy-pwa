@@ -183,6 +183,9 @@ export default {
       searchFlag: ''
     }
   },
+  mounted () {
+    $('.nav').metisMenu();
+  },
   methods: {
     logout () {
       Auth.logout()
